@@ -2,7 +2,7 @@ How View the Project:
 
 To access or view the project, you can visit the repository's URL on GitHub:
 
-Your Repository URL
+(https://github.com/Pratyancha-Patrike/Currency-Search.git)
 
 Ensure you're on the master branch to see the latest updates and changes to the project. If needed, you can switch to the master branch using the branch selection dropdown on the GitHub repository page.
 
@@ -40,5 +40,3 @@ Acknowledgments:
     Flag API: FlagCDN
     Country API: restcountries.com
     FontAwesome: FontAwesome
-
-Replace [Your Repository URL] with the actual URL of your repository. Make sure to update other placeholders such as [Your Name] and [MIT License](link-to-license) with appropriate information.
