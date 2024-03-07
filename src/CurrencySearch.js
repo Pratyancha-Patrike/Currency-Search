@@ -12,32 +12,32 @@ const CurrencySearch = () => {
     fetch('https://flagcdn.com/en/codes.json')
       .then(response => response.json())
       .then(data => {
-        setFlagCodes(data); // Update flag codes state with fetched data
+        setFlagCodes(data); 
       })
       .catch(error => {
-        console.error('Error fetching flag codes:', error); // Log error if fetching fails
+        console.error('Error fetching flag codes:', error); 
       });
-  }, []); // Run effect only once on component mount
+  }, []); 
 
   const handleChange = (event) => {
-    setCurrency(event.target.value); // Update currency state with input value
+    setCurrency(event.target.value); 
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent default form submission behavior
-    // Fetch countries based on entered currency code
+    event.preventDefault(); 
+    
     fetch(`https://restcountries.com/v3.1/currency/${currency}`)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Network response was not ok'); // Throw error for non-ok responses
+          throw new Error('Network response was not ok'); 
         }
-        return response.json(); // Parse response JSON
+        return response.json();
       })
       .then(data => {
-        setCountries(data); // Update countries state with fetched data
+        setCountries(data); 
       })
       .catch(error => {
-        console.error('Error fetching data:', error); // Log error if fetching fails
+        console.error('Error fetching data:', error); 
       });
   };
 
