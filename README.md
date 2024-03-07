@@ -1,9 +1,13 @@
-# Currency-Search
-Task in React
+How View the Project:
 
-Currency Search App
+To access or view the project, you can visit the repository's URL on GitHub:
+
+Your Repository URL
+
+Ensure you're on the master branch to see the latest updates and changes to the project. If needed, you can switch to the master branch using the branch selection dropdown on the GitHub repository page.
 
 Description:
+
 The Currency Search App is a web application built using React.js that allows users to search for countries based on the currency they use. Users can enter a currency code (e.g., INR, EUR) in the search input field, and the app will display a list of countries that use the specified currency along with their flags and capitals.
 
 Features:
@@ -24,7 +28,6 @@ Technologies Used:
 
 How to Run:
 
-    firstly open master 
     Clone the repository to your local machine.
     Navigate to the project directory in the terminal.
     Run npm install to install dependencies.
@@ -38,3 +41,4 @@ Acknowledgments:
     Country API: restcountries.com
     FontAwesome: FontAwesome
 
+Replace [Your Repository URL] with the actual URL of your repository. Make sure to update other placeholders such as [Your Name] and [MIT License](link-to-license) with appropriate information.
