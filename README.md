@@ -1,4 +1,4 @@
-How View the Project:
+How to View the Project:
 
 To access or view the project, you can visit the repository's URL on GitHub:
 
