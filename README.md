@@ -24,6 +24,7 @@ Technologies Used:
 
 How to Run:
 
+    firstly open master 
     Clone the repository to your local machine.
     Navigate to the project directory in the terminal.
     Run npm install to install dependencies.
