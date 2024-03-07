@@ -1,0 +1,197 @@
+body {
+  background: linear-gradient(to bottom,  #e6f7ff, #f2e3ee); /* Light gradient colors */
+  font-family: 'Arial', sans-serif; /* Choose a suitable font */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  transition: margin-top 0.3s; /* Transition for container margin */
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* width: 500px; */
+}
+
+.inputField {
+  width: 300px;
+  padding: 10px;
+  padding-left: 40px; /* Ensure enough space for the search logo */
+  margin-right: 10px;
+  
+  border: 1px solid #1a1b1a; /* Add a border to the input field */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  }
+  .inputField:focus {
+    font-weight: bold;
+}
+
+
+.searchIcon {
+  position: absolute;
+  left: 15px; /* Default position to align with default padding */
+  top: 50%;
+  transform: translateY(-50%);
+  color: blue;
+  cursor: pointer;
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.countryContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countryBox {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+
+.countryBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.countryName {
+  font-weight: bold;
+}
+
+.boxWrapper {
+  /* border: 1px solid #121111; */
+  border-radius: 7px;
+  transition: transform 0.3s ease;
+  }
+  .boxWrapper:hover {
+      transform: scale(1.1);
+  }
+  
+.flagBox {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition for flag box */
+}
+
+.flagBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flagBox img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.infoBox {
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 100px;
+  /* border: 1px solid #121111; */
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  }
+  
+  
+  .countryName {
+  font-weight: bold;
+  }
+  
+  .capitalName {
+  margin-top: 5px;
+  }
+  
+
+/* Media Queries */
+
+
+/* iPhone SE */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+
+    body{
+      background: linear-gradient(to bottom,  #d8d0ca, #d5c8c4);
+    }
+    .inputField{
+        width: 200px;
+    }
+
+}
+
+/* Samsung Galaxy S8+ */
+@media only screen and (min-width: 360px) and (max-width: 740px) {
+
+    body{
+      background: linear-gradient(to bottom,  #d2d7c5, #ced8be);
+    }
+    .inputField{
+        width: 200px;
+    }
+
+}
+
+/* iPad Mini */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body{
+      background: linear-gradient(to bottom,  #bdd4d2, #b3c9d0);
+    }
+
+}
+
+/* Galaxy Fold */
+@media only screen and (min-width: 280px) and (max-width: 653px) {
+
+    body{
+      background: linear-gradient(to bottom,  #c9cadb, #d5c3d8);
+    }
+    .inputField{
+        width: 200px;
+    }
+    .headingContainer{
+        font-size: 11px;
+    }
+
+}
