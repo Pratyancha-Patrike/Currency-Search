@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(to bottom,  #e6f7ff, #f2e3ee); /* Light gradient colors */
-  font-family: 'Arial', sans-serif; /* Choose a suitable font */
+  background: linear-gradient(to bottom,  #e6f7ff, #f2e3ee); 
+  font-family: 'Arial', sans-serif;
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  transition: margin-top 0.3s; /* Transition for container margin */
+  transition: margin-top 0.3s;
 }
 
 .formContainer {
@@ -26,12 +26,12 @@ body {
 .inputField {
   width: 300px;
   padding: 10px;
-  padding-left: 40px; /* Ensure enough space for the search logo */
+  padding-left: 40px; 
   margin-right: 10px;
   
-  border: 1px solid #1a1b1a; /* Add a border to the input field */
-  border-radius: 5px; /* Rounded corners */
-  background-color: #fff; /* White background */
+  border: 1px solid #1a1b1a; 
+  border-radius: 5px; 
+  background-color: #fff; 
   }
   .inputField:focus {
     font-weight: bold;
@@ -40,7 +40,7 @@ body {
 
 .searchIcon {
   position: absolute;
-  left: 15px; /* Default position to align with default padding */
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   color: blue;
@@ -98,7 +98,7 @@ body {
 }
 
 .boxWrapper {
-  /* border: 1px solid #121111; */
+  
   border-radius: 7px;
   transition: transform 0.3s ease;
   }
@@ -111,7 +111,7 @@ body {
   height: 100px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s; /* Transition for flag box */
+  transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .flagBox:hover {
@@ -148,7 +148,6 @@ body {
 /* Media Queries */
 
 
-/* iPhone SE */
 @media only screen and (min-width: 375px) and (max-width: 667px) {
 
     body{
@@ -160,7 +159,7 @@ body {
 
 }
 
-/* Samsung Galaxy S8+ */
+
 @media only screen and (min-width: 360px) and (max-width: 740px) {
 
     body{
@@ -172,7 +171,7 @@ body {
 
 }
 
-/* iPad Mini */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     body{
@@ -181,7 +180,7 @@ body {
 
 }
 
-/* Galaxy Fold */
+
 @media only screen and (min-width: 280px) and (max-width: 653px) {
 
     body{
